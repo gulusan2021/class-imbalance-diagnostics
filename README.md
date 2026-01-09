@@ -232,7 +232,7 @@ ecommerce-class-imbalance/
     └── technical_report.pdf    # Detailed methodology and findings
 Usage
 bash# Clone repository
-git clone https://github.com/gulusan2021/ecommerce-class-imbalance.git
+git clone https://github.com/gulusan2021/class-imbalance-diagnostics.git
 cd ecommerce-class-imbalance
 
 # Install dependencies
@@ -299,7 +299,7 @@ bibtex@misc{yourlastname2025ecommerce,
   title = {Class Imbalance in E-Commerce Order Cancellation Prediction},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/gulusan2021/ecommerce-class-imbalance}
+  url = {https://github.com/gulusan2021/class-imbalance-diagnostics.git}
 }
 
 Keywords: class imbalance, imbalanced learning, e-commerce, order cancellation prediction, SMOTE, cost-sensitive learning, precision-recall analysis, machine learning evaluation
