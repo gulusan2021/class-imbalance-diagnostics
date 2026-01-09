@@ -1,5 +1,8 @@
-Class Imbalance in E-Commerce Order Cancellation Prediction
+###Class Imbalance in E-Commerce Order Cancellation Prediction
+
+
 Overview
+
 This project investigates the challenges of class imbalance in predicting e-commerce order cancellations using the Brazilian E-Commerce Public Dataset by Olist. Order cancellation prediction represents a critical business problem where standard machine learning approaches often fail due to severe class imbalance—successful orders vastly outnumber cancellations, yet identifying potential cancellations has disproportionate business value.
 The research examines how traditional performance metrics can be misleading in imbalanced settings and demonstrates that models achieving high overall accuracy may fail catastrophically on the minority class. Through systematic evaluation using appropriate metrics and resampling techniques, this work provides empirical evidence for the importance of class-aware modeling in real-world e-commerce applications.
 
