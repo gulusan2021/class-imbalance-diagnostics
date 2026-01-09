@@ -7,11 +7,15 @@ This project investigates the challenges of class imbalance in predicting e-comm
 The research examines how traditional performance metrics can be misleading in imbalanced settings and demonstrates that models achieving high overall accuracy may fail catastrophically on the minority class. Through systematic evaluation using appropriate metrics and resampling techniques, this work provides empirical evidence for the importance of class-aware modeling in real-world e-commerce applications.
 
 Dataset: Brazilian E-Commerce Public Dataset by Olist
+
 Problem Type: Binary classification with severe class imbalance
+
 Business Context: Predicting order cancellations to enable proactive customer retention
 
 Project Motivation
+
 The Class Imbalance Problem
+
 In e-commerce order management, cancellations typically represent 1-5% of total orders, creating a natural class imbalance problem. This imbalance has several important implications:
 
 Asymmetric Costs: Failing to predict a cancellation (false negative) incurs opportunity costs in customer retention, while false positives waste intervention resources but are less costly.
@@ -19,16 +23,21 @@ Misleading Metrics: Standard accuracy can exceed 95% by simply predicting "no ca
 Learning Bias: Standard loss functions optimize overall error rate, causing models to ignore minority class patterns in favor of majority class performance.
 
 Why This Matters for Machine Learning Projects
+
 Class imbalance exposes fundamental challenges in supervised learning:
 
 Representation Learning: How do models learn meaningful representations when minority class examples are scarce?
+
 Decision Boundaries: Do learned boundaries reflect true class distributions or training set imbalance?
+
 Evaluation Methodology: What constitutes "good performance" when classes have different costs and prevalences?
 
 This project addresses these questions through systematic experimentation with resampling techniques, cost-sensitive learning, and appropriate evaluation protocols.
 
 Dataset Description
+
 Source and Scope
+
 The Brazilian E-Commerce Public Dataset by Olist contains real-world transactional data from 100,000 orders placed between 2016 and 2018. The dataset includes:
 
 Order status labels (delivered, canceled, unavailable)
