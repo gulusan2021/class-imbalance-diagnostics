@@ -292,7 +292,7 @@ bibtex@misc{erdoganozgul2025ecommerce,
   title = {Class Imbalance in E-Commerce Order Cancellation Prediction},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/gulusan2021/class-imbalance-diagnostics}
+  url = {https://github.com/gulusan2021/class-imbalance-diagnostics.git}
 }
 
 Keywords: class imbalance, imbalanced learning, e-commerce, order cancellation prediction, SMOTE, cost-sensitive learning, precision-recall analysis, machine learning evaluation
